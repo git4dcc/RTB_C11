@@ -1,0 +1,96 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 7
+Title "RTB Bus Module"
+Date "2023-10-22"
+Rev "4"
+Comp "Frank Schumacher"
+Comment1 "C11.4"
+Comment2 "Powerboard"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 650  800  0    118  ~ 0
+OLED
+$Comp
+L power:+3V3 #PWR0130
+U 1 1 5F819BD9
+P 2600 1950
+F 0 "#PWR0130" H 2600 1800 50  0001 C CNN
+F 1 "+3V3" V 2615 2078 50  0000 L CNN
+F 2 "" H 2600 1950 50  0001 C CNN
+F 3 "" H 2600 1950 50  0001 C CNN
+	1    2600 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 1950 2600 1950
+Connection ~ 2600 1950
+Wire Wire Line
+	2600 1550 2600 1950
+Wire Wire Line
+	2450 1550 2600 1550
+Text GLabel 1650 1550 0    50   Output ~ 0
+FLT.0
+$Comp
+L Device:R R?
+U 1 1 5FBA7040
+P 2300 1550
+AR Path="/5B6C6B9D/5FBA7040" Ref="R?"  Part="1" 
+AR Path="/5B6D3404/5FBA7040" Ref="R49"  Part="1" 
+F 0 "R49" H 2370 1596 50  0001 L CNN
+F 1 "10k" H 2370 1505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 1550 50  0001 C CNN
+F 3 "~" H 2300 1550 50  0001 C CNN
+	1    2300 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 1550 1850 1550
+$Comp
+L Device:LED D?
+U 1 1 5FBA7035
+P 2000 1550
+AR Path="/5B6C6B9D/5FBA7035" Ref="D?"  Part="1" 
+AR Path="/5B6D3404/5FBA7035" Ref="D8"  Part="1" 
+F 0 "D8" H 1993 1295 50  0001 C CNN
+F 1 "LED(red)" H 1993 1386 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 2000 1550 50  0001 C CNN
+F 3 "~" H 2000 1550 50  0001 C CNN
+	1    2000 1550
+	1    0    0    1   
+$EndComp
+Text GLabel 1650 1950 0    50   Output ~ 0
+FLT.1
+$Comp
+L Device:R R?
+U 1 1 5FB8DB57
+P 2300 1950
+AR Path="/5B6C6B9D/5FB8DB57" Ref="R?"  Part="1" 
+AR Path="/5B6D3404/5FB8DB57" Ref="R47"  Part="1" 
+F 0 "R47" H 2370 1996 50  0001 L CNN
+F 1 "10k" H 2370 1905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 1950 50  0001 C CNN
+F 3 "~" H 2300 1950 50  0001 C CNN
+	1    2300 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 1950 1850 1950
+$Comp
+L Device:LED D?
+U 1 1 5FB8DB50
+P 2000 1950
+AR Path="/5B6C6B9D/5FB8DB50" Ref="D?"  Part="1" 
+AR Path="/5B6D3404/5FB8DB50" Ref="D6"  Part="1" 
+F 0 "D6" H 1993 1695 50  0001 C CNN
+F 1 "LED(red)" H 1993 1786 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 2000 1950 50  0001 C CNN
+F 3 "~" H 2000 1950 50  0001 C CNN
+	1    2000 1950
+	1    0    0    1   
+$EndComp
+$EndSCHEMATC
