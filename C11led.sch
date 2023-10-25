@@ -4,17 +4,17 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 7
-Title "RTB Bus Module"
+Title "RTB C11 Module"
 Date "2023-10-22"
 Rev "4"
 Comp "Frank Schumacher"
-Comment1 "C11.4"
-Comment2 "Powerboard"
+Comment1 "Powerboard"
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 650  800  0    118  ~ 0
-OLED
+LED
 $Comp
 L power:+3V3 #PWR0130
 U 1 1 5F819BD9
