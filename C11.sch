@@ -28,8 +28,8 @@ $EndSheet
 $Sheet
 S 3150 3250 1700 750 
 U 5B6E0562
-F0 "SLOT" 79
-F1 "C11slt.sch" 79
+F0 "Connectors" 79
+F1 "C11con.sch" 79
 $EndSheet
 $Sheet
 S 5600 4400 1750 750 

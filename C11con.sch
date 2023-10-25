@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 800  750  0    118  ~ 0
-Slots
+Connector
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5F0DF109
@@ -298,12 +298,12 @@ Text GLabel 5400 3950 2    50   Input ~ 0
 $Comp
 L Mechanical:MountingHole H9
 U 1 1 5F5767DE
-P 4900 5050
-F 0 "H9" H 5000 5096 50  0000 L CNN
-F 1 "MountingHole" H 5000 5005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 4900 5050 50  0001 C CNN
-F 3 "~" H 4900 5050 50  0001 C CNN
-	1    4900 5050
+P 1150 7350
+F 0 "H9" H 1250 7396 50  0000 L CNN
+F 1 "MountingHole" H 1250 7305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 1150 7350 50  0001 C CNN
+F 3 "~" H 1150 7350 50  0001 C CNN
+	1    1150 7350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -385,12 +385,12 @@ NoConn ~ 5050 1950
 $Comp
 L Mechanical:MountingHole H8
 U 1 1 5F5767E8
-P 4900 4800
-F 0 "H8" H 5000 4846 50  0000 L CNN
-F 1 "MountingHole" H 5000 4755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 4900 4800 50  0001 C CNN
-F 3 "~" H 4900 4800 50  0001 C CNN
-	1    4900 4800
+P 1150 7100
+F 0 "H8" H 1250 7146 50  0000 L CNN
+F 1 "MountingHole" H 1250 7055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 1150 7100 50  0001 C CNN
+F 3 "~" H 1150 7100 50  0001 C CNN
+	1    1150 7100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

@@ -266,7 +266,7 @@ $EndComp
 Text GLabel 5800 1900 2    50   Input ~ 0
 Vbst.0
 $Comp
-L _SamacSys:MAX17613AATP+ IC?
+L RTB_Parts:MAX17613AATP+ IC?
 U 1 1 5F51F091
 P 3250 1900
 AR Path="/5B6E0562/5F51F091" Ref="IC?"  Part="1" 
@@ -285,16 +285,6 @@ F 9 "MAX17613AATP+" H 4400 1600 50  0001 L CNN "Manufacturer_Part_Number"
 	1    3250 1900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4550 2000 4550 2100
-Wire Wire Line
-	3250 2000 3250 1900
-Connection ~ 3250 2000
-Connection ~ 3250 1900
-Wire Wire Line
-	4550 2000 4550 1900
-Connection ~ 4550 2000
-Connection ~ 4550 1900
 $Comp
 L power:GND #PWR?
 U 1 1 5F51F09F
@@ -471,25 +461,13 @@ Wire Wire Line
 	3450 3200 3650 3200
 Connection ~ 3650 3200
 Wire Wire Line
-	2000 5500 2000 5600
-Wire Wire Line
-	2000 5500 2000 5400
-Wire Wire Line
-	3300 5500 3300 5600
-Wire Wire Line
-	3300 5500 3300 5400
-Connection ~ 2000 5500
-Connection ~ 2000 5400
-Connection ~ 3300 5500
-Connection ~ 3300 5400
-Wire Wire Line
 	1500 5400 1750 5400
 Wire Wire Line
 	1750 5400 1850 5400
 Wire Wire Line
 	1850 5400 2000 5400
 $Comp
-L _SamacSys:MAX17613AATP+ IC?
+L RTB_Parts:MAX17613AATP+ IC?
 U 1 1 5F62136B
 P 2000 5400
 AR Path="/5B6E0562/5F62136B" Ref="IC?"  Part="1" 
@@ -908,8 +886,6 @@ Wire Wire Line
 Wire Wire Line
 	3100 1900 3250 1900
 Connection ~ 3100 1900
-Wire Wire Line
-	3250 2000 3250 2100
 $Comp
 L Device:R R?
 U 1 1 5F51F0A8
@@ -1007,7 +983,7 @@ Connection ~ 5300 3700
 Wire Wire Line
 	5300 3700 4900 3700
 $Comp
-L _SamacSys:MPM3610AGQV-P IC1
+L RTB_Parts:MPM3610AGQV-P IC1
 U 1 1 641B0B98
 P 8050 1700
 F 0 "IC1" H 8700 1965 50  0000 C CNN
@@ -1261,4 +1237,12 @@ Wire Wire Line
 Wire Wire Line
 	8950 5500 9150 5500
 Connection ~ 9150 5500
+Wire Wire Line
+	4550 1900 4550 2100
+Wire Wire Line
+	3250 1900 3250 2100
+Wire Wire Line
+	2000 5400 2000 5600
+Wire Wire Line
+	3300 5400 3300 5600
 $EndSCHEMATC

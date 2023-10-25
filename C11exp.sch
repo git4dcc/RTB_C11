@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 750  900  0    118  ~ 0
-ComEXP
+Expander
 Wire Wire Line
 	2950 2000 2950 1450
 Wire Wire Line
