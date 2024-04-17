@@ -9,3 +9,14 @@ The powerboard monitors and protects power supplied to bus modules within a Powe
 <img src="https://rtb4dcc.de/wp-content/uploads/2024/01/un_C11_angled.png" width=600>
 
 [Schematic](doc/C11_schematic.pdf) | [Layout](doc/C11_layout.pdf)
+
+# Firmware
+Filename structure: { **pcb** }{ **code** }{ **version** }.hex
+
+Example: **C11F0001**.hex
+
+|   | Description |
+| --- | --- |
+| **pcb** | Name of matching hardware (**C11**) |
+| **code** | Type of code contained (**R**=rom, **B**=bootloader, **F**=flash, **U**=bld update, **P**=UPDI factory code) |
+| **version** | Release version (**####**) |
