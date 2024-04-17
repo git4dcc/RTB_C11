@@ -5,6 +5,8 @@
 
 The powerboard monitors and protects power supplied to bus modules within a Power Domain.
 
+[more](https://rtb4dcc.de/hardware/modules/c11/)
+
 # PCB
 <img src="https://rtb4dcc.de/wp-content/uploads/2024/01/un_C11_angled.png" width=600>
 
