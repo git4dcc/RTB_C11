@@ -1,0 +1,273 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "94a51510-61da-478f-8a9a-9b95a41c0ffd")
+	(paper "A4")
+	(title_block
+		(title "RTB C11 Module")
+		(date "2023-10-22")
+		(rev "4")
+		(company "Frank Schumacher")
+		(comment 1 "Powerboard")
+	)
+	(lib_symbols)
+	(sheet
+		(at 142.24 55.88)
+		(size 44.45 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005b6c6b9d")
+		(property "Sheetname" "CPU"
+			(at 142.24 54.8001 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C11cpu.kicad_sch"
+			(at 142.24 75.8092 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "C11"
+				(path "/94a51510-61da-478f-8a9a-9b95a41c0ffd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 82.55)
+		(size 44.45 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005b6d3404")
+		(property "Sheetname" "LED"
+			(at 142.24 81.4701 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C11led.kicad_sch"
+			(at 142.24 102.4792 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "C11"
+				(path "/94a51510-61da-478f-8a9a-9b95a41c0ffd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 111.76)
+		(size 44.45 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005b6d9789")
+		(property "Sheetname" "Expander"
+			(at 142.24 110.6801 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C11exp.kicad_sch"
+			(at 142.24 131.6892 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "C11"
+				(path "/94a51510-61da-478f-8a9a-9b95a41c0ffd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 82.55)
+		(size 43.18 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005b6e0562")
+		(property "Sheetname" "Connectors"
+			(at 80.01 81.4701 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C11con.kicad_sch"
+			(at 80.01 102.4792 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "C11"
+				(path "/94a51510-61da-478f-8a9a-9b95a41c0ffd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 55.88)
+		(size 50.8 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005bbd98c6")
+		(property "Sheetname" "BUS"
+			(at 200.66 54.8001 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C11bus.kicad_sch"
+			(at 200.66 75.8092 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "C11"
+				(path "/94a51510-61da-478f-8a9a-9b95a41c0ffd"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 200.66 82.55)
+		(size 50.8 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-00005ca7768a")
+		(property "Sheetname" "Power"
+			(at 200.66 81.4701 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "C11pwr.kicad_sch"
+			(at 200.66 102.4792 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "C11"
+				(path "/94a51510-61da-478f-8a9a-9b95a41c0ffd"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
