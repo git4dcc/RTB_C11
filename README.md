@@ -54,6 +54,9 @@ The PCB layout uses SMD footprints with 0.4mm pitch and a mix of 0603 and 0402 p
 - CPU: AVR64DB48, Atmega4809
 - PMIC: MAX17613AATP+
 
+## Kicad
+[Schematic](doc/C11_schematic.pdf) | [Layout](doc/C11_layout.pdf) | [Gerber](gerber)
+
 # Firmware
 Filename structure: { **pcb** }{ **code** }{ **version** }.hex
 
