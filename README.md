@@ -46,8 +46,8 @@
 # Hardware
 The PCB layout uses SMD footprints with 0.4mm pitch and a mix of 0603 and 0402 parts. Reflow soldering is mandatory.
 
-<img src="supplemental/images/C11_top.JPG" width=600>
-<img src="supplemental/images/C11_btm.JPG" width=604>
+<img src="supplemental/images/C11_top.JPG" width=700>
+<img src="supplemental/images/C11_btm.JPG" width=704>
 
 ## PCB
 - 2-layer PCB, FR4, 1.6mm
@@ -69,3 +69,6 @@ Example: **C11F0001**.hex
 | **version** | Release version (**####**) |
 
 [Firmware files](firmware)
+
+# Images
+<img src="supplemental/images/C11_usecase1.JPG"> 
