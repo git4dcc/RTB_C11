@@ -2958,12 +2958,6 @@
 		(uuid "2dc07c8b-8b8b-4dc0-96a7-ce7c14fe9fe3")
 	)
 	(junction
-		(at 56.4896 139.954)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2edc1c11-1308-415c-91d7-a20a8bbe0829")
-	)
-	(junction
 		(at 255.27 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3381,6 +3375,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 64.77) (xy 96.52 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d6f656-b724-487f-9d69-ad9f01d5656b")
+	)
+	(wire
+		(pts
 			(xy 82.55 87.63) (xy 88.9 87.63)
 		)
 		(stroke
@@ -3701,16 +3705,6 @@
 	)
 	(wire
 		(pts
-			(xy 56.4896 139.954) (xy 52.6796 139.954)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f8c3184-f0b0-46e9-9a99-6e1b2ffaa9f5")
-	)
-	(wire
-		(pts
 			(xy 82.55 74.93) (xy 88.9 74.93)
 		)
 		(stroke
@@ -3768,16 +3762,6 @@
 			(type default)
 		)
 		(uuid "98a3ca30-8914-4de5-bdd4-ff4ff2e96d6e")
-	)
-	(wire
-		(pts
-			(xy 52.6796 124.714) (xy 56.4896 124.714)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b4068a5-05b1-40da-9422-e70f6a00e76a")
 	)
 	(wire
 		(pts
@@ -3858,16 +3842,6 @@
 			(type default)
 		)
 		(uuid "adc60045-28fa-4ebc-a9d3-269526d2fc84")
-	)
-	(wire
-		(pts
-			(xy 52.6796 129.794) (xy 52.6796 124.714)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af1ff4f3-e898-4b56-856c-af4d6a62144d")
 	)
 	(wire
 		(pts
@@ -3978,16 +3952,6 @@
 			(type default)
 		)
 		(uuid "d0fb6bc2-80bb-4ffe-bc72-49ae1f6d8516")
-	)
-	(wire
-		(pts
-			(xy 52.6796 139.954) (xy 52.6796 134.874)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7f505d0-a276-47a2-9597-6fc265dc6440")
 	)
 	(wire
 		(pts
@@ -4801,7 +4765,7 @@
 	)
 	(global_label "BUS.opt"
 		(shape input)
-		(at 96.52 64.77 0)
+		(at 106.68 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4810,7 +4774,7 @@
 		)
 		(uuid "be0282f7-0316-4c30-8ea9-b27e317261b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 64.77 0)
+			(at 106.68 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,53 +5218,12 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1"
-			(at 228.6 49.53 0)
+		(property "LCSC Part #" "C1850226"
+			(at 207.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-THVD1450DRBR"
-			(at 228.6 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/THVD1450DRBR?qs=chTDxNqvsynaQkBpts7wJA%3D%3D"
-			(at 228.6 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 228.6 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "THVD1450DRBR"
-			(at 228.6 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5385,7 +5308,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 100mW 220kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 58.42 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22961"
 			(at 58.42 171.45 0)
 			(effects
 				(font
@@ -5454,7 +5386,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 100mW 75V 9.1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 58.42 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23260"
 			(at 58.42 179.07 0)
 			(effects
 				(font
@@ -5547,7 +5488,7 @@
 		(at 212.09 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f578871")
@@ -5615,7 +5556,7 @@
 		(at 231.14 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f59b695")
@@ -5799,12 +5740,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.8V~5.5V 10bit 12bit 24MHz 41 64KB AVR VQFN-48(6x6) Microcontrollers (MCU/MPU/SOC) ROHS"
 			(at 67.31 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C3227406"
+			(at 67.31 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "35"
@@ -6005,7 +5956,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 100mW 220kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 101.6 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22961"
 			(at 101.6 171.45 0)
 			(effects
 				(font
@@ -6074,7 +6034,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 100mW 75V 9.1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23260"
 			(at 101.6 179.07 0)
 			(effects
 				(font
@@ -6180,13 +6149,14 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "2.2u/50V"
 			(at 235.458 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
@@ -6207,12 +6177,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.2uF 50V X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 234.95 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C50254"
+			(at 234.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6275,12 +6255,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 150Ω 200V 250mW Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
 			(at 255.27 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17917"
+			(at 255.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6341,8 +6331,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 100mW 1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 248.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C21190"
+			(at 248.92 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6408,8 +6407,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 100mW 1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C21190"
+			(at 248.92 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6475,7 +6483,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 105.41 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
 			(at 105.41 31.75 0)
 			(effects
 				(font
@@ -6542,7 +6559,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 100.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
 			(at 100.33 31.75 0)
 			(effects
 				(font
@@ -6699,7 +6725,7 @@
 		(at 231.14 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f7bb438")
@@ -6817,7 +6843,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 56.4896 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
 			(at 56.4896 132.334 0)
 			(effects
 				(font
@@ -7029,73 +7064,6 @@
 			(project "C11"
 				(path "/94a51510-61da-478f-8a9a-9b95a41c0ffd/00000000-0000-0000-0000-00005b6c6b9d"
 					(reference "#PWR0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 52.6796 132.334 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f7cfd82")
-		(property "Reference" "C4"
-			(at 50.292 130.048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2u"
-			(at 49.53 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 52.6796 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.6796 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.6796 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aea77aa1-0a9c-4dcf-afe0-f08beddbc53f")
-		)
-		(pin "2"
-			(uuid "2efa9fe7-6fff-463a-a552-88e955eee6e2")
-		)
-		(instances
-			(project "C11"
-				(path "/94a51510-61da-478f-8a9a-9b95a41c0ffd/00000000-0000-0000-0000-00005b6c6b9d"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7533,8 +7501,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 200V 22Ω 250mW Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
 			(at 242.57 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17958"
+			(at 242.57 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7602,8 +7579,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 200V 22Ω 250mW Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
 			(at 242.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17958"
+			(at 242.57 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7631,7 +7617,7 @@
 		(at 214.63 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f81ff9a")
@@ -7739,7 +7725,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 100mW 220kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 123.19 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22961"
 			(at 123.19 171.45 0)
 			(effects
 				(font
@@ -7808,7 +7803,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 100mW 75V 9.1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 123.19 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23260"
 			(at 123.19 179.07 0)
 			(effects
 				(font
@@ -7949,6 +7953,15 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 70.4596 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9ff80fda-b021-45ac-bb2e-20a72359157e")
 		)
@@ -8079,7 +8092,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 100mW 75V 9.1kΩ Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 81.28 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C23260"
 			(at 81.28 179.07 0)
 			(effects
 				(font
@@ -8212,7 +8234,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 100mW 220kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 81.28 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22961"
 			(at 81.28 171.45 0)
 			(effects
 				(font
@@ -8279,7 +8310,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 110.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
 			(at 110.49 31.75 0)
 			(effects
 				(font
@@ -8309,7 +8349,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f9d70b5")
@@ -8416,8 +8456,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 114.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22978"
+			(at 114.3 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8450,7 +8499,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000652f9c56")
 		(property "Reference" "R4"
-			(at 93.98 62.738 90)
+			(at 98.806 63.754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8485,8 +8534,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 92.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25804"
+			(at 92.71 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4,6 +4,8 @@
 # Plot
 PLOT/
 OLD/
+C11-backups/
+production/
 
 # Temporary files
 *.000
@@ -31,4 +33,3 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-*.csv

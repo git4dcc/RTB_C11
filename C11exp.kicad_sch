@@ -2191,305 +2191,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:IRLML2060"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "IRLML2060"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel HEXFET MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "IRLML2060_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "IRLML2060_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -2800,12 +2501,6 @@
 		(uuid "108162f6-ea84-44c7-a2cb-315065a3641e")
 	)
 	(junction
-		(at 142.24 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d8c5f4c-dfb9-4ac8-8a28-4839d0f59dfd")
-	)
-	(junction
 		(at 33.02 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2840,12 +2535,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f436f83-f6af-4e2a-bb8c-1876be3d7587")
-	)
-	(junction
-		(at 149.86 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82e2ee0f-3e1c-4cbb-bf18-69f88b76837a")
 	)
 	(junction
 		(at 95.25 36.83)
@@ -2944,8 +2633,16 @@
 		(uuid "777bf7fb-6fcc-43e6-bd6d-12e620c5ef6c")
 	)
 	(no_connect
+		(at 59.69 66.04)
+		(uuid "7f62eb00-cc1c-4de4-8a94-51a02d8ac479")
+	)
+	(no_connect
 		(at 90.17 109.22)
 		(uuid "874884c3-b5b1-49fe-bcf4-519fbce9acd2")
+	)
+	(no_connect
+		(at 160.02 83.82)
+		(uuid "92b5d7fc-d957-44aa-b1f1-c89557fe9255")
 	)
 	(no_connect
 		(at 90.17 106.68)
@@ -3215,16 +2912,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 113.03) (xy 146.05 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43270ce2-354f-4f2d-8a16-607ca440dfb6")
-	)
-	(wire
-		(pts
 			(xy 144.78 80.01) (xy 147.32 80.01)
 		)
 		(stroke
@@ -3435,26 +3122,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 66.04) (xy 59.69 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "870493d3-fc79-491c-8a58-165c00979911")
-	)
-	(wire
-		(pts
-			(xy 146.05 113.03) (xy 146.05 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b51c292-2a11-4fc5-9325-9c907028aa87")
-	)
-	(wire
-		(pts
 			(xy 107.95 101.6) (xy 109.22 101.6)
 		)
 		(stroke
@@ -3492,16 +3159,6 @@
 			(type default)
 		)
 		(uuid "91fd3094-4618-467f-8745-168204703b3c")
-	)
-	(wire
-		(pts
-			(xy 142.24 97.79) (xy 142.24 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "956cbd74-8522-48d9-b9e7-6596085c1722")
 	)
 	(polyline
 		(pts
@@ -3542,16 +3199,6 @@
 			(type default)
 		)
 		(uuid "9ffd3cd4-07ab-45ef-80d3-699b42c2bc73")
-	)
-	(wire
-		(pts
-			(xy 142.24 104.14) (xy 146.05 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a16732f1-c71f-46af-9c27-645447221d10")
 	)
 	(wire
 		(pts
@@ -3642,16 +3289,6 @@
 			(type default)
 		)
 		(uuid "af1e24f7-c2f6-456b-972d-a46c2491d910")
-	)
-	(wire
-		(pts
-			(xy 149.86 92.71) (xy 149.86 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7de7a90-47ad-4911-bfe2-6594c009c903")
 	)
 	(wire
 		(pts
@@ -3805,16 +3442,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 83.82) (xy 160.02 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df8f0f8e-a7dc-409d-86ed-d222fd892fc1")
-	)
-	(wire
-		(pts
 			(xy 144.78 77.47) (xy 144.78 80.01)
 		)
 		(stroke
@@ -3842,16 +3469,6 @@
 			(type default)
 		)
 		(uuid "e460ef2b-9948-4ba6-9c39-1d3463e242a1")
-	)
-	(wire
-		(pts
-			(xy 142.24 104.14) (xy 142.24 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edf9a353-c0d5-4f14-88d2-7c0f1532d76e")
 	)
 	(wire
 		(pts
@@ -3893,16 +3510,6 @@
 		)
 		(uuid "f5d53c2f-50db-4bc8-9c70-be6db3ca3b33")
 	)
-	(wire
-		(pts
-			(xy 149.86 102.87) (xy 149.86 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f64682e5-766c-472f-a489-ce93498735c7")
-	)
 	(polyline
 		(pts
 			(xy 184.15 26.67) (xy 184.15 142.24)
@@ -3932,26 +3539,6 @@
 			(type default)
 		)
 		(uuid "ff137185-f2b5-4ff7-9aed-11caac263572")
-	)
-	(global_label "OUT.1"
-		(shape input)
-		(at 142.24 116.84 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "125582c8-820f-468c-a5e7-07d7930f0997")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "BUS.opt"
 		(shape input)
@@ -4165,26 +3752,6 @@
 		(uuid "8290f07d-b698-4ea3-a5c8-edba18537c9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 99.06 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT.1"
-		(shape output)
-		(at 50.8 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "93339389-e8c2-45ab-9647-871faf482445")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,7 +4067,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 90.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C49678"
 			(at 90.17 39.37 0)
 			(effects
 				(font
@@ -4639,7 +4215,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 100.33 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
 			(at 100.33 39.37 0)
 			(effects
 				(font
@@ -4672,9 +4257,9 @@
 		(at 165.1 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f589714")
 		(property "Reference" "J9"
 			(at 167.132 76.4032 0)
@@ -4859,8 +4444,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/16W 4 4.7kΩ 8 ±200ppm/℃ ±5% 0603x4 Resistor Networks, Arrays ROHS"
 			(at 46.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1980"
+			(at 46.99 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4944,8 +4538,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/16W 4 4.7kΩ 8 ±200ppm/℃ ±5% 0603x4 Resistor Networks, Arrays ROHS"
 			(at 46.99 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1980"
+			(at 46.99 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,7 +4594,7 @@
 		(at 39.37 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f59a980")
@@ -5036,6 +4639,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5058,7 +4662,7 @@
 		(at 39.37 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f59b442")
@@ -5104,6 +4708,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5126,7 +4731,7 @@
 		(at 39.37 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f59b651")
@@ -5172,6 +4777,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5194,7 +4800,7 @@
 		(at 39.37 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f59b878")
@@ -5240,6 +4846,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5262,7 +4869,7 @@
 		(at 39.37 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f59baa2")
@@ -5308,6 +4915,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5330,7 +4938,7 @@
 		(at 39.37 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f59bc85")
@@ -5376,6 +4984,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5398,7 +5007,7 @@
 		(at 39.37 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f59bec0")
@@ -5444,6 +5053,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -5462,85 +5072,11 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:IRLML2060")
-		(at 147.32 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f59bf94")
-		(property "Reference" "Q1"
-			(at 152.5016 96.6216 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLML2060"
-			(at 152.5016 98.933 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 152.4 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee"
-			(at 147.32 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "0a8ca2bd-1da1-496c-bace-bd59c0632291")
-		)
-		(pin "1"
-			(uuid "0d80b895-5344-47b8-9ad3-a5e28a33ad0e")
-		)
-		(pin "2"
-			(uuid "4b72407e-3d04-444a-9363-f30817deaa9b")
-		)
-		(instances
-			(project "C11"
-				(path "/94a51510-61da-478f-8a9a-9b95a41c0ffd/00000000-0000-0000-0000-00005b6d9789"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small_ALT")
 		(at 39.37 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f59c0a5")
@@ -5586,6 +5122,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5598,75 +5135,6 @@
 			(project "C11"
 				(path "/94a51510-61da-478f-8a9a-9b95a41c0ffd/00000000-0000-0000-0000-00005b6d9789"
 					(reference "D22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f59e2f3")
-		(property "Reference" "#PWR0149"
-			(at 149.86 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.987 116.2812 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a881cfc4-78ab-4195-a062-fce3ec6b9ac4")
-		)
-		(instances
-			(project ""
-				(path "/94a51510-61da-478f-8a9a-9b95a41c0ffd/00000000-0000-0000-0000-00005b6c6b9d"
-					(reference "#PWR?")
-					(unit 1)
-				)
-				(path "/94a51510-61da-478f-8a9a-9b95a41c0ffd/00000000-0000-0000-0000-00005b6d9789"
-					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -5810,7 +5278,7 @@
 		(at 165.1 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f5b5a4c")
@@ -5890,79 +5358,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 146.05 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f5cbe0c")
-		(property "Reference" "R55"
-			(at 148.59 109.982 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 146.05 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 144.272 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6a6d4be2-1f2d-4d1d-87c9-6dfdcdc424d6")
-		)
-		(pin "1"
-			(uuid "911fdc6b-9161-406a-83cc-925d37599146")
-		)
-		(instances
-			(project ""
-				(path "/94a51510-61da-478f-8a9a-9b95a41c0ffd/00000000-0000-0000-0000-00005b6c6b9d"
-					(reference "R?")
-					(unit 1)
-				)
-				(path "/94a51510-61da-478f-8a9a-9b95a41c0ffd/00000000-0000-0000-0000-00005b6d9789"
-					(reference "R55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_Microchip_ATmega:ATmega4809-A")
 		(at 74.93 86.36 0)
 		(unit 1)
@@ -6012,6 +5407,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 74.93 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "31"
@@ -6172,9 +5577,9 @@
 		(at 133.35 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005f60c85d")
 		(property "Reference" "D23"
 			(at 133.35 71.9836 0)
@@ -6182,16 +5587,14 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "SSA34"
 			(at 133.35 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123F"
@@ -6212,12 +5615,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+125℃ 3A 40V 500uA@40V 550mV@3A 80A SOD-123F Schottky Diodes ROHS"
 			(at 133.35 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C84632"
+			(at 133.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6286,7 +5699,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100nF 50V X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 95.25 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
 			(at 95.25 39.37 0)
 			(effects
 				(font
@@ -6319,7 +5741,7 @@
 		(at 95.25 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f6c3511")
@@ -6364,6 +5786,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 95.25 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6430,8 +5862,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 104.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22978"
+			(at 104.14 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6463,7 +5904,7 @@
 		(at 95.25 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f6c73e4")
@@ -6508,6 +5949,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 95.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6574,8 +6025,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 104.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22978"
+			(at 104.14 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6607,7 +6067,7 @@
 		(at 95.25 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f7e4c42")
@@ -6626,6 +6086,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
@@ -6652,6 +6113,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 95.25 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6718,8 +6189,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 104.14 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22978"
+			(at 104.14 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6752,7 +6232,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f7e4c57")
@@ -6797,6 +6277,16 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 102.87 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6863,8 +6353,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 104.14 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22978"
+			(at 104.14 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,9 +6716,9 @@
 		(at 151.13 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006530a754")
 		(property "Reference" "R5"
 			(at 145.542 78.994 90)
@@ -7257,8 +6756,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 1kΩ 200V 250mW Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
 			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C4410"
+			(at 151.13 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7290,9 +6798,9 @@
 		(at 140.97 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000065319cbf")
 		(property "Reference" "R6"
 			(at 139.7 75.184 90)
@@ -7330,8 +6838,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 120Ω 200V 250mW Thick Film Resistor ±1% ±100ppm/℃ 1206 Chip Resistor - Surface Mount ROHS"
 			(at 140.97 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17909"
+			(at 140.97 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
