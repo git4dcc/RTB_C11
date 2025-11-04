@@ -51,7 +51,7 @@ The PCB layout uses SMD footprints with 0.4mm pitch and a mix of 0603 and 0402 p
 
 ## PCB
 - 2-layer PCB, FR4, 1.6mm
-- CPU: AVR64DB48, Atmega4809
+- CPU: AVR64DA48, Atmega4809
 - PMIC: MAX17613AATP+
 
 ## Kicad
