@@ -10,8 +10,8 @@
 <summary>See also</summary>
 
 - [RTB_C10 - Master](https://github.com/git4dcc/RTB_C10)
-- [RTB_C11 - Power](https://github.com/git4dcc/RTB_C11)
 - [RTB_C12 - Micro Booster](https://github.com/git4dcc/RTB_C12)
+- [RTB_C13 - Track Sensor](https://github.com/git4dcc/RTB_C13)
 - [RTB_P15 - Base](https://github.com/git4dcc/RTB_P15)
 
 </details>
