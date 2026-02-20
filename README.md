@@ -4,15 +4,15 @@
 [![Real-time Bus (RTB)](https://img.shields.io/badge/RTB_suite-66FF33)](https://github.com/git4dcc/RTB_suite)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-lightgray)](https://www.apache.org/licenses/LICENSE-2.0)
 
-**RTB C11 Powerboard: Smart Power Protection.** This homebrew powerboard actively monitors input voltage to safeguard connected RTB modules. It automatically **interrupts power** to the RTB subsystem if the voltage drifts outside the **safe range of 12V to 18V**, preventing damage from erroneous power conditions.
+Smart Power Protection: This homebrew powerboard actively monitors input voltage to safeguard connected RTB modules. It automatically interrupts power to the RTB subsystem if the voltage drifts outside the **safe range of 12V to 18V**, preventing damage from erroneous power conditions.
 
 <details>
 <summary>See also</summary>
 
-- [RTB_C10 - Master](https://github.com/git4dcc/RTB_C10)
-- [RTB_C12 - Micro Booster](https://github.com/git4dcc/RTB_C12)
-- [RTB_C13 - Track Sensor](https://github.com/git4dcc/RTB_C13)
-- [RTB_P15 - Base](https://github.com/git4dcc/RTB_P15)
+- [RTB_C10 - Master](/../../../../git4dcc/RTB_C10)
+- [RTB_C12 - Micro Booster](/../../../../git4dcc/RTB_C12)
+- [RTB_C13 - Track Sensor](/../../../../git4dcc/RTB_C13)
+- [RTB_P15 - Base](/../../../../git4dcc/RTB_P15)
 
 </details>
 
