@@ -79,4 +79,8 @@ The fuse settings as well as the P-code (C11Pxxxx.hex) has to be installed by us
 |<img src=supplemental/images/C11_fuses.jpg width=500>|
 
 # Images
-<img src="supplemental/images/C11_usecase1.JPG"> 
+<img src="supplemental/images/C11_usecase1.JPG">
+
+| Standalone | Closeup | FDX + HDX bus connected |
+| --- | --- | --- |
+| <img src="supplemental/images/C11_sample1.jpg" width=250> | <img src="supplemental/images/C11_sample2.jpg" width=330> | <img src="supplemental/images/C11_sample3.jpg" width=330> |
